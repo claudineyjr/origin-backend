@@ -23,6 +23,16 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+### Endpoint:
+
+There is a file called `requests.http` on the main directory of this application that can be used by VSCode extension `REST Client` by `Huachao Mao`.
+
+The endpoint is:
+
+```bash
+ PATCH | /insurance/risk
+```
+
 ## Test
 
 ```bash
