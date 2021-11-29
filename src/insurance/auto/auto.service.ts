@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { InsuranceRiskRequestDto } from '../dtos/insurance-risk-request.dto';
+import { RiskSegment } from '../interfaces/risk-segment.interface';
 
 @Injectable()
-export class AutoService {
+export class AutoService implements RiskSegment {
   getInsuranceRisk(
     clientInformation: InsuranceRiskRequestDto,
     baseScore: number,
