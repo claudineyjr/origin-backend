@@ -23,6 +23,10 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+### Swagger
+
+This project has a swagger integrated, you can access on `/api`.
+
 ### Endpoint:
 
 There is a file called `requests.http` on the main directory of this application that can be used by VSCode extension `REST Client` by `Huachao Mao`.
